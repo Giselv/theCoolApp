@@ -89,6 +89,7 @@ export default function App() {
       text: "How old would spongebob be today?",
       answer: "37 years old",
     },
+    {
       id: 10,
       text: "You've reached the end. Please refresh for next person.",
     },
