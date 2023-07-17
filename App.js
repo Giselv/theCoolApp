@@ -89,6 +89,10 @@ export default function App() {
       text: "How old would spongebob be today?",
       answer: "37 years old",
     },
+      id: 10,
+      text: "You've reached the end. Please refresh for next person.",
+    },
+    
     
 ];
     const respondToUser = (userMessages) => {
@@ -99,8 +103,6 @@ export default function App() {
     if (userMessageText === "yes"||userMessageText === "Yes") {
     const currentQuestion = questions[currentQuestionIndex];
     addBotMessage(currentQuestion.text);
-    // } else {
-    //   addBotMessage("Please type 'Yes' to start.");
   }
 
     else if (userMessageText === questions[currentQuestionIndex].answer) {
@@ -108,6 +110,7 @@ export default function App() {
 
     setCurrentQuestionIndex(currentQuestionIndex + 1);
     console.log("set current")
+
 
     if (currentQuestionIndex + 1 < questions.length) {
       const nextQuestion = questions[currentQuestionIndex + 1];
