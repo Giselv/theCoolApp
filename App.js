@@ -51,7 +51,7 @@ export default function App() {
     },
     {
       id: 2,
-      text: "Where city does he live in?",
+      text: "What city does he live in?",
       answer: "Bikini Bottom",
     },
     {
@@ -66,13 +66,13 @@ export default function App() {
     },
     {
       id: 5,
-      text: "Who is Spongebobs bestfriend?",
+      text: "Who is Spongebobs' bestfriend?",
       answer: "Patrick",
     },
     {
       id: 6,
       text: "Where does spongebob work?",
-      answer: "The Crusty Crab",
+      answer: "The Krusty Krab",
     },
     {
       id: 7,
@@ -82,7 +82,7 @@ export default function App() {
     {
       id: 8,
       text: "Who taught Spongebob how to drive?",
-      answer: "Ms. Puff",
+      answer: "Mrs. Puff",
     },
     {
       id: 9,
@@ -91,8 +91,6 @@ export default function App() {
     },
     
 ];
-
-
     const respondToUser = (userMessages) => {
     const userMessageText = userMessages[0].text;
 
