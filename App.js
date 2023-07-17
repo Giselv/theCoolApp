@@ -45,30 +45,51 @@ export default function App() {
 
      const questions = [
     {
-        id: 1,
-          text: "Which Disney princess has a pet tiger named Rajah?",
-          answer: "Jasmine",
+      id: 1,
+      text: "What is Spongebobs last name?",
+      answer: "Squarepants",
     },
     {
       id: 2,
-      text: "Great, what food am i currently craving?",
-      answer: "sushi",
+      text: "Where city does he live in?",
+      answer: "Bikini Bottom",
     },
     {
       id: 3,
-      text: "What is my favorite color?",
-      answer: "",
+      text: "When is his birthday? (mm-dd-year)",
+      answer: "07-14-1986",
     },
     {
       id: 4,
-      text: "What is the name of the street where Aladdin lives?",
-      answer: "Agrabah",
+      text: "What color are his eyes?",
+      answer: "Blue",
     },
     {
       id: 5,
-      text: "Who is Simba's wise and trusted advisor in 'The Lion King'?",
-      answer: "Rafiki",
+      text: "Who is Spongebobs bestfriend?",
+      answer: "Patrick",
     },
+    {
+      id: 6,
+      text: "Where does spongebob work?",
+      answer: "The Crusty Crab",
+    },
+    {
+      id: 7,
+      text: "Who is Spongebobs Boss?",
+      answer: "Mr. Crabs",
+    },
+    {
+      id: 8,
+      text: "Who taught Spongebob how to drive?",
+      answer: "Ms. Puff",
+    },
+    {
+      id: 9,
+      text: "How old would spongebob be today?",
+      answer: "37 years old",
+    },
+    
 ];
 
 
@@ -96,7 +117,7 @@ export default function App() {
     } 
   }
     else {
-      addBotMessage("Please type 'Yes' to start.");
+      addBotMessage("Please try again...");
     //   addBotMessage("Trivia completed!");
     }
 };
