@@ -15,7 +15,7 @@ export default function App() {
   setMessages([
   {
         _id: 1,
-        text: "Let's see how well you know Sponge the Bob! Say 'Yes' when you're ready to play!",
+        text: "Let's see how well you know SpongeBob! Say 'Yes' when you're ready to play!",
         createdAt: new Date(),
         user: CHATBOT_USER_OBJ,
         },
